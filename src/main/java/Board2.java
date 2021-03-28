@@ -24,7 +24,6 @@ public class Board2 extends JPanel {
                     ex.printStackTrace();
                 }
 
-
                 if (centerCircleX == 0 && centerCircleY == 0) {
                     final Dimension boardSize = getSize();
                     centerCircleX = boardSize.width / 2;
@@ -38,7 +37,6 @@ public class Board2 extends JPanel {
 
                 final int width = getSize().width;
                 final int height = getSize().height;
-
 
                 centerCircleX += speedX;
                 if (centerCircleX > width - CIRCLE_RADIUS) {
